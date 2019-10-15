@@ -1,17 +1,12 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
+  margin-bottom: 40vh;
   max-width: 550px;
 }
 
-@media screen and (max-width: 650px) {
-  body {
-    margin: 0 50px;
-  }
-}
-
 .avatar {
-  margin-top: 200px;
+  margin-top: 30vh;
   margin-bottom: 20px;
 }
 
@@ -19,12 +14,6 @@ h1 {
   font-size: 70px;
   line-height: 0px;
   white-space: nowrap;
-}
-
-@media screen and (max-width: 650px) {
-  h1 {
-    font-size: 60px;
-  }
 }
 
 h3 {
@@ -45,4 +34,17 @@ a {
 
 .block {
   margin-bottom: 80px;
+}
+
+@media screen and (max-width: 620px) {
+  body {
+    margin: 0 35px;
+    margin-bottom: 40vh;
+  }
+  h1 {
+    font-size: 55px;
+  }
+  iframe {
+    height: 190px;
+  }
 }
