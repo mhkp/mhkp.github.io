@@ -6,8 +6,9 @@ body {
 }
 
 .avatar {
-  margin-top: 30vh;
   margin-bottom: 20px;
+  height: calc(25vh - 15px);
+  min-height: 100px;
 }
 
 h1 {
@@ -17,7 +18,8 @@ h1 {
 }
 
 h3 {
-  font-size: 48px;
+  font-size: 45px;
+  line-height: 0px;
 }
 
 p {
@@ -28,12 +30,13 @@ a {
   color: black;
 }
 
-.heroText {
-  margin-bottom: 50px;
+.hero {
+  margin-top: 30vh;
+  margin-bottom: 150px;
 }
 
 .block {
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 @media screen and (max-width: 620px) {
